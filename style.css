@@ -1,3 +1,15 @@
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+}
+
 body {
   font-family: sans-serif;
   max-width: 500px;
@@ -29,7 +41,7 @@ input {
 button {
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #002f6c;
+  background-color: #00A8FF;
   color: white;
   font-weight: bold;
   border: none;
